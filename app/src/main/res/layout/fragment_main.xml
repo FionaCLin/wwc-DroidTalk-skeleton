@@ -10,7 +10,7 @@
     tools:showIn="@layout/activity_main"
     android:orientation="vertical">
 
-    <!-- ADD LISTVIEW HERE -->
+    <!-- LISTVIEW HERE -->
 
     <LinearLayout
         android:layout_alignParentBottom="true"
@@ -19,7 +19,7 @@
         android:orientation="horizontal"
         android:layout_weight="0" >
 
-        <!-- ADD EDITTEXT AND BUTTON HERE -->
+        <!-- EDITTEXT AND BUTTON HERE -->
 
     </LinearLayout>
 
