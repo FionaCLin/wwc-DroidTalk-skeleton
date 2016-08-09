@@ -2,11 +2,14 @@
 This git repo contains the skeleton code to get started building out DroidTalk, a messaging app.
 
 # Setup! 
+If you want to use a real Android device (Kitkat+), **skip step 3-5**. 
+
 1. Make sure you have [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
 2. Install [Android Studio, which includes Android SDK](https://developer.android.com/studio/index.html)
-3. Install [Genymotion](https://www.genymotion.com/), the Android emulator app we will be using for testing DroidTalk
-4. Install a virtual device with API 19+ on GenyMotion, such as Google Nexus 5 API 21 or Samsung S5 API 19. 
-5. Clone this repository 
+3. Install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads). If you already have Oracle VM VirtualBox, make sure that you installed version 5.0.4 or above.
+4. Install [Genymotion](https://www.genymotion.com/), the Android emulator app we will be using for testing DroidTalk
+5. Install a virtual device with API 19+ on GenyMotion, such as Google Nexus 5 API 21 or Samsung S5 API 19. 
+6. Clone this repository 
 ```
 git clone https://github.com/jleu1656/wwc-DroidTalk-skeleton.git
 ```
