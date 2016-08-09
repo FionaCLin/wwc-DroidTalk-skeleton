@@ -43,9 +43,9 @@ git clone https://github.com/jleu1656/wwc-DroidTalk-skeleton.git
 ## Genymotion VirtualBox error; Failed to open a session for the virtual machine {virtual device name}
 To fix: disable audio or change to Core Audio as the Host Audio Driver	
 1. Open Virtual Box
-2. Select Android VM (e.g. Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560 )
-3. Click Settings on top.	
-4. Go to Audio and Uncheck Enable Audio Checkbox
+2. Select Android VM (e.g. Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560)
+3. Click Settings on top
+4. Go to Audio and uncheck Enable Audio checkbox
 
 ## Error: could not install *smartsocket* listener: Address already in use
 Change add in Genymotion (in Settings) to use the same sdk path as Android Studio. Then close Genymotion and restart Android Studio 
