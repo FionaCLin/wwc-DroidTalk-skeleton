@@ -2,17 +2,32 @@
 This git repo contains the skeleton code to get started building out DroidTalk, a messaging app.
 
 # Setup! 
-If you want to use a real Android device (Kitkat+), **skip step 3-5**. 
+There are many ways to deploy the app. 
 
+You can either use a real physical Android device, use Genymotion (an Android emulator) or use the inbuilt emulator provided by Android Studio. 
+
+**Follow the appropriate instructions to set up (at least) one of the ways to deploy the app.**
+
+## Project common setup 
 1. Make sure you have [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
 2. Install [Android Studio, which includes Android SDK](https://developer.android.com/studio/index.html)
-3. Install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads). If you already have Oracle VM VirtualBox, make sure that you installed version 5.0.4 or above.
-4. Install [Genymotion](https://www.genymotion.com/), the Android emulator app we will be using for testing DroidTalk
-5. Install a virtual device with API 19+ on GenyMotion, such as Google Nexus 5 API 21 or Samsung S5 API 19. 
-6. Clone this repository 
+3. Clone this repository 
 ```
 git clone https://github.com/jleu1656/wwc-DroidTalk-skeleton.git
 ```
+
+## Setting up Genymotion
+1. Install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads). If you already have Oracle VM VirtualBox, make sure that you installed version 5.0.4 or above.
+2. Install [Genymotion](https://www.genymotion.com/), the Android emulator app we will be using for testing DroidTalk
+3. Install a virtual device with API 19+ on GenyMotion, such as Google Nexus 5 API 21 or Samsung S5 API 19. 
+
+## Setting up the inbuilt Android Studio emulator 
+
+## Setting up your physical device 
+1. Go to your phone settings > About phone 
+2. Tap on the Build Number 7 times to enable Developer Options
+3. Go back to the main settings > Developer Options
+4. Enable USB Debugging
 
 # Running the app 
 1. Open the project in Android Studio
@@ -20,15 +35,13 @@ git clone https://github.com/jleu1656/wwc-DroidTalk-skeleton.git
 3. In Android Studio, shift + f10 or click on the green play button to build the app. Select a virtual device
 
 # Troubleshooting 
-## Android Studio does not recognise my Android device 
-If you are using a real device, you will need to "Enable Debugging Mode" on your device. This process may differ depending on the phone, but in general it is: In your phone settings > About phone > tap on the Build Number 7 times to enable Developer Options > Go back to your settings once you have enabled Developer Options and you should be able to see the menu item Developer Options > Enable USB Debugging
 
 ## Genymotion VirtualBox error; Failed to open a session for the virtual machine {virtual device name}
 To fix: disable audio or change to Core Audio as the Host Audio Driver	
-1.	Open Virtual Box
-2.	Select Android VM (e.g. Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560 )
-3.	Click Settings on top.	
-4.	Go to Audio and Uncheck Enable Audio Checkbox
+1. Open Virtual Box
+2. Select Android VM (e.g. Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560 )
+3. Click Settings on top.	
+4. Go to Audio and Uncheck Enable Audio Checkbox
 
 ## Error: could not install *smartsocket* listener: Address already in use
 Change add in Genymotion (in Settings) to use the same sdk path as Android Studio. Then close Genymotion and restart Android Studio 
