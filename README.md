@@ -13,10 +13,13 @@ git clone https://github.com/jleu1656/wwc-DroidTalk-skeleton.git
 
 # Running the app 
 1. Open the project in Android Studio
-2. Launch your virtual device on Genymotion
-3. In Android Studio, shift + f10 or click on the green play button to build the app. Select a virtual device. 
+2. Launch your virtual device on Genymotion OR connect your Android device via USB to your machine
+3. In Android Studio, shift + f10 or click on the green play button to build the app. Select a virtual device
 
 # Troubleshooting 
+## Android Studio does not recognise my Android device 
+If you are using a real device, you will need to "Enable Debugging Mode" on your device. This process may differ depending on the phone, but in general it is: In your phone settings > About phone > tap on the Build Number 7 times to enable Developer Options > Go back to your settings once you have enabled Developer Options and you should be able to see the menu item Developer Options > Enable USB Debugging
+
 ## Genymotion VirtualBox error; Failed to open a session for the virtual machine {virtual device name}
 To fix: disable audio or change to Core Audio as the Host Audio Driver	
 1.	Open Virtual Box
