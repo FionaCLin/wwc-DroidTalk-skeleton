@@ -22,6 +22,10 @@ git clone https://github.com/jleu1656/wwc-DroidTalk-skeleton.git
 3. Install a virtual device with API 19+ on GenyMotion, such as Google Nexus 5 API 21 or Samsung S5 API 19. 
 
 ## Setting up the inbuilt Android Studio emulator 
+1. Open AVD Manager in Android Studio
+2. Select Create Virtual Device > Select a device and click next 
+3. Select a system image (make sure it's API 19+, we recommend 22 or 23) > Next
+4. Finish to create your new virtual device  
 
 ## Setting up your physical device 
 1. Go to your phone settings > About phone 
